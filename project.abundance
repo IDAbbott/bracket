@@ -14,8 +14,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.08152645273200347,
-      "y": 0.3713080168776371,
+      "x": 0.04596704249783174,
+      "y": 0.5548523206751055,
       "uniqueID": "id-227",
       "ioValues": [
         {
@@ -26,8 +26,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.18820468343451865,
-      "y": 0.5274261603375527,
+      "x": 0.16131830008673026,
+      "y": 0.5759493670886076,
       "uniqueID": "id-230",
       "ioValues": [
         {
@@ -46,8 +46,8 @@
     },
     {
       "atomType": "ShrinkWrap",
-      "x": 0.2619254119687771,
-      "y": 0.37763713080168776,
+      "x": 0.21595836947094538,
+      "y": 0.5253164556962026,
       "uniqueID": "id-236",
       "name": "Shrink Wrap",
       "ioValues": [
@@ -212,8 +212,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.36947094535993064,
-      "y": 0.2911392405063291,
+      "x": 0.3642671292281006,
+      "y": 0.430379746835443,
       "uniqueID": "id-255"
     },
     {
@@ -288,6 +288,51 @@
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.14223764093668692,
+      "y": 0.05274261603375527,
+      "uniqueID": "id-281",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 100
+        },
+        {
+          "name": "y length",
+          "ioValue": 40,
+          "currentEquation": "40"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.30875975715524717,
+      "y": 0.05485232067510549,
+      "uniqueID": "id-285",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 10,
+          "currentEquation": "10"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 20
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.40156114483954897,
+      "y": 0.09071729957805907,
+      "uniqueID": "id-291"
     }
   ],
   "allConnectors": [
@@ -355,6 +400,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-265",
       "ap2ID": "id-275"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-281",
+      "ap2ID": "id-285"
+    },
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-285",
+      "ap2ID": "id-291"
     }
   ],
   "unitsKey": "MM",
