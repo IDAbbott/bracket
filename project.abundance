@@ -17,7 +17,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "extrude-cut-cut-cut-shrinkWrap-fuse-circle-40-move-circle-40-20-0-0-50-move-rectangle-100-50-10-22-0-shrinkWrap-fuse-circle-30-move-circle-30-20-0-0-50-move-cut-rectangle-25-15-move-circle-3.3-5-0-0--40-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6",
+                "geometry": "extrude-cut-cut-cut-shrinkWrap-fuse-circle-40-move-circle-40-20-0-0-50-move-rectangle-100-50-10-22-0-shrinkWrap-fuse-circle-30-move-circle-30-20-0-0-50-move-cut-rectangle-25-15-move-circle-3.3-5-0-0--42-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6",
                 "dimension": "3D",
                 "tags": [],
                 "color": "#aad7f2",
@@ -43,7 +43,7 @@
                 ]
               },
               {
-                "geometry": "extrude-move-cut-rectangle-25-15-move-circle-3.3-5-0-0--40-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6",
+                "geometry": "extrude-move-cut-rectangle-25-15-move-circle-3.3-5-0-0--42-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -709,11 +709,12 @@
         },
         {
           "name": "xDist",
-          "ioValue": -40
+          "ioValue": -42
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "zDist",
@@ -879,7 +880,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "cut-cut-cut-shrinkWrap-fuse-circle-40-move-circle-40-20-0-0-50-move-rectangle-100-50-10-22-0-shrinkWrap-fuse-circle-30-move-circle-30-20-0-0-50-move-cut-rectangle-25-15-move-circle-3.3-5-0-0--40-0-0",
+                "geometry": "cut-cut-cut-shrinkWrap-fuse-circle-40-move-circle-40-20-0-0-50-move-rectangle-100-50-10-22-0-shrinkWrap-fuse-circle-30-move-circle-30-20-0-0-50-move-cut-rectangle-25-15-move-circle-3.3-5-0-0--42-0-0",
                 "dimension": "2D",
                 "tags": [],
                 "color": "#aad7f2",
@@ -905,7 +906,7 @@
                 ]
               },
               {
-                "geometry": "move-cut-rectangle-25-15-move-circle-3.3-5-0-0--40-0-0",
+                "geometry": "move-cut-rectangle-25-15-move-circle-3.3-5-0-0--42-0-0",
                 "dimension": "2D",
                 "plane": {
                   "origin": [
@@ -987,8 +988,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.624457935819601,
-      "y": 0.7278481012658228,
+      "x": 0.6235906331309626,
+      "y": 0.7236286919831224,
       "uniqueID": "id-305",
       "ioValues": [
         {
@@ -996,7 +997,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "extrude-cut-cut-cut-shrinkWrap-fuse-circle-40-move-circle-40-20-0-0-50-move-rectangle-100-50-10-22-0-shrinkWrap-fuse-circle-30-move-circle-30-20-0-0-50-move-cut-rectangle-25-15-move-circle-3.3-5-0-0--40-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6",
+                "geometry": "extrude-cut-cut-cut-shrinkWrap-fuse-circle-40-move-circle-40-20-0-0-50-move-rectangle-100-50-10-22-0-shrinkWrap-fuse-circle-30-move-circle-30-20-0-0-50-move-cut-rectangle-25-15-move-circle-3.3-5-0-0--42-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6",
                 "dimension": "3D",
                 "tags": [],
                 "color": "#aad7f2",
@@ -1022,7 +1023,7 @@
                 ]
               },
               {
-                "geometry": "extrude-move-cut-rectangle-25-15-move-circle-3.3-5-0-0--40-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6",
+                "geometry": "extrude-move-cut-rectangle-25-15-move-circle-3.3-5-0-0--42-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -1116,8 +1117,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.3538594969644406,
-      "y": 0.8860759493670887,
+      "x": 0.359930615784909,
+      "y": 0.8755274261603376,
       "uniqueID": "id-374",
       "ioValues": [
         {
@@ -1158,7 +1159,8 @@
         },
         {
           "name": "z-axis degrees",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         }
       ]
     },
