@@ -298,19 +298,19 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 100
+          "ioValue": 100,
+          "currentEquation": "100"
         },
         {
           "name": "y length",
-          "ioValue": 40,
-          "currentEquation": "40"
+          "ioValue": 50
         }
       ]
     },
     {
       "atomType": "Move",
-      "x": 0.186470078057242,
-      "y": 0.1729957805907173,
+      "x": 0.19514310494362533,
+      "y": 0.16244725738396626,
       "uniqueID": "id-285",
       "ioValues": [
         {
@@ -320,7 +320,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 15
+          "ioValue": 22
         },
         {
           "name": "zDist",
@@ -338,7 +338,7 @@
     {
       "atomType": "Assembly",
       "x": 0.4744145706851691,
-      "y": 0.5274261603375527,
+      "y": 0.5189873417721519,
       "uniqueID": "id-295",
       "ioValues": [
         {
@@ -354,6 +354,44 @@
           "ioValue": null
         }
       ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.575021682567216,
+      "y": 0.5485232067510548,
+      "uniqueID": "id-301",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 6
+        }
+      ]
+    },
+    {
+      "atomType": "Export",
+      "x": 0.624457935819601,
+      "y": 0.7278481012658228,
+      "uniqueID": "id-305",
+      "ioValues": [
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "bracket",
+          "currentEquation": "bracket"
+        }
+      ],
+      "type": "STEP",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "bracket"
     }
   ],
   "allConnectors": [
@@ -448,9 +486,19 @@
       "ap2ID": "id-255"
     },
     {
-      "ap2Name": "number or geometry",
+      "ap2Name": "geometry",
       "ap1ID": "id-295",
+      "ap2ID": "id-301"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-301",
       "ap2ID": "id-225"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-301",
+      "ap2ID": "id-305"
     }
   ],
   "unitsKey": "MM",
