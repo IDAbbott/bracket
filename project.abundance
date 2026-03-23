@@ -313,7 +313,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 20
+          "ioValue": 22.5
         }
       ]
     },
@@ -399,8 +399,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.7952691680261011,
-      "y": 0.8080168776371308,
+      "x": 0.7944535073409462,
+      "y": 0.7995780590717299,
       "uniqueID": "id-305",
       "ioValues": [
         {
@@ -639,8 +639,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 4,
-          "currentEquation": "4"
+          "ioValue": 4
         },
         {
           "name": "zDist",
@@ -713,7 +712,7 @@
         {
           "name": "Shape 3",
           "ioValue": {
-            "geometry": "move-extrude-rotate-cut-move-rectangle-35-15--6-0-0-move-circle-3.3--10-0-0-0-0-180-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,-1,1.1102230246251565e-16]}-8-62-4-20",
+            "geometry": "move-extrude-rotate-cut-move-rectangle-35-15--6-0-0-move-circle-3.3--10-0-0-0-0-180-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,-1,1.1102230246251565e-16]}-8-62-4-22.5",
             "dimension": "3D",
             "plane": {
               "origin": [
