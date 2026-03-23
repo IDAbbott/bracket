@@ -294,8 +294,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5636215334420881,
-      "y": 0.7616033755274262,
+      "x": 0.5660685154975531,
+      "y": 0.7362869198312236,
       "uniqueID": "id-269",
       "ioValues": [
         {
@@ -304,12 +304,11 @@
         },
         {
           "name": "xDist",
-          "ioValue": 60,
-          "currentEquation": "60"
+          "ioValue": 60
         },
         {
           "name": "yDist",
-          "ioValue": 6
+          "ioValue": 4
         },
         {
           "name": "zDist",
@@ -337,8 +336,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         }
       ]
     },
@@ -400,8 +398,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.8039895923677364,
-      "y": 0.8143459915611815,
+      "x": 0.802610114192496,
+      "y": 0.7995780590717299,
       "uniqueID": "id-305",
       "ioValues": [
         {
@@ -444,8 +442,7 @@
         },
         {
           "name": "y-axis degrees",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "z-axis degrees",
@@ -487,8 +484,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.6867862969004894,
-      "y": 0.430379746835443,
+      "x": 0.6949429037520392,
+      "y": 0.419831223628692,
       "uniqueID": "id-394",
       "ioValues": [
         {
@@ -557,8 +554,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "zDist",
@@ -594,8 +590,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "zDist",
@@ -629,8 +624,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5750407830342578,
-      "y": 0.9388185654008439,
+      "x": 0.566884176182708,
+      "y": 0.9556962025316456,
       "uniqueID": "id-512",
       "ioValues": [
         {
@@ -643,12 +638,12 @@
         },
         {
           "name": "yDist",
-          "ioValue": 7.5,
-          "currentEquation": "7.5"
+          "ioValue": 4
         },
         {
           "name": "zDist",
-          "ioValue": 8
+          "ioValue": 8,
+          "currentEquation": "8"
         }
       ]
     }
