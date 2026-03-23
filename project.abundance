@@ -304,11 +304,12 @@
         },
         {
           "name": "xDist",
-          "ioValue": 63
+          "ioValue": 74
         },
         {
           "name": "yDist",
-          "ioValue": 7.5
+          "ioValue": 7.5,
+          "currentEquation": "7.5"
         },
         {
           "name": "zDist",
@@ -502,14 +503,14 @@
         },
         {
           "name": "height",
-          "ioValue": 5
+          "ioValue": 15
         }
       ]
     },
     {
       "atomType": "Assembly",
       "x": 0.6672104404567699,
-      "y": 0.4472573839662447,
+      "y": 0.4493670886075949,
       "uniqueID": "id-394",
       "ioValues": [
         {
@@ -538,7 +539,7 @@
         },
         {
           "name": "height",
-          "ioValue": 5
+          "ioValue": 15
         }
       ]
     },
@@ -554,7 +555,7 @@
         },
         {
           "name": "height",
-          "ioValue": 5
+          "ioValue": 8
         }
       ]
     },
@@ -570,7 +571,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 20
+          "ioValue": -17
         },
         {
           "name": "yDist",
