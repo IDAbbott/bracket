@@ -294,8 +294,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5660685154975531,
-      "y": 0.7362869198312236,
+      "x": 0.566884176182708,
+      "y": 0.7320675105485233,
       "uniqueID": "id-269",
       "ioValues": [
         {
@@ -308,7 +308,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": 4
+          "ioValue": 4,
+          "currentEquation": "4"
         },
         {
           "name": "zDist",
@@ -398,7 +399,7 @@
     },
     {
       "atomType": "Export",
-      "x": 0.802610114192496,
+      "x": 0.800978792822186,
       "y": 0.7995780590717299,
       "uniqueID": "id-305",
       "ioValues": [
@@ -642,8 +643,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 8,
-          "currentEquation": "8"
+          "ioValue": 7.5
         }
       ]
     }
