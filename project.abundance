@@ -765,6 +765,66 @@
         }
       ],
       "unionType": "Fusion"
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.4029363784665579,
+      "y": 0.09915611814345991,
+      "uniqueID": "id-730",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 35
+        },
+        {
+          "name": "y length",
+          "ioValue": 15
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.5029363784665579,
+      "y": 0.09915611814345991,
+      "uniqueID": "id-734",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 5
+        }
+      ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.44371941272430665,
+      "y": 0.229957805907173,
+      "uniqueID": "id-738",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 6.6
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.5437194127243067,
+      "y": 0.229957805907173,
+      "uniqueID": "id-741",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -937,6 +997,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-618",
       "ap2ID": "id-305"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-730",
+      "ap2ID": "id-734"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-738",
+      "ap2ID": "id-741"
     }
   ],
   "unitsKey": "MM",
